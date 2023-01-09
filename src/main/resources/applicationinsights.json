@@ -1,0 +1,20 @@
+{
+	"connectionString": "*****",
+	"preview": {
+		"captureControllerSpans": true
+	},
+	"instrumentation": {
+		"mongo": {
+			"enabled": true
+		},
+		"jdbc": {
+			"enabled": true
+		},
+		"logging": {
+			"level": "INFO"
+		}
+	},
+	"sampling": {
+		"limitPerSecond": 5
+	}
+}
